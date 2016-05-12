@@ -10,7 +10,7 @@ export default {
     top: '50%',
     left: '50%',
     transform: 'translateX(-50%) translateY(-50%)',
-    color: '#F2700E',
+    color: '#B0171F',
     fontSize: 48,
     fontFamily: 'BrixSansLight',
   },
