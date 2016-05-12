@@ -6,6 +6,6 @@ import Banner from './components/Banner';
 
 // Render to the #app element
 ReactDOM.render(
-  <Banner message="HI, I'M A FULL STACK DEVELOPER" />,
+  <Banner message="WE ARE ALL FULL STACK DEVELOPERS" />,
   document.getElementById('app')
 );
