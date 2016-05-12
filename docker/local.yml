@@ -1,0 +1,7 @@
+web:
+    extends:
+        file: ./common.yml
+        service: web
+    ports:
+        - "4000:4000"
+    hostname: localhost

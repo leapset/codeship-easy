@@ -1,0 +1,76 @@
+{
+  "name": "codeship-demo-cake",
+  "version": "1.0.0",
+  "description": "Quick starter kit for the CodeShip demo with React, ES6 with JSCS,ESLINT & JEST testing",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leapset/codeship-demo.git"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=5.0 <6",
+    "npm": ">=3.3 <4"
+  },
+  "main": "server.js",
+  "devDependencies": {
+    "react-hot-loader": "^1.2.8",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "babel-jest": "^9.0.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
+    "estraverse-fb": "^1.3.1",
+    "hot-reload-server": "0.0.4",
+    "jest-cli": "^12.0.2",
+    "jscs": "^2.8.0",
+    "redux-devtools": "^3.0.0",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.1",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
+  },
+  "scripts": {
+    "test": "eslint app && jscs app && jest",
+    "build": "webpack --config ./webpack.prod.config.js",
+    "startProd": "node ./server.prod.js"
+  },
+  "author": {
+    "name": "Dinidu de Silva",
+    "email": "dinidu.desilva@trycake.com",
+    "url": "http://www.trycake.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.0.2",
+    "babel": "^6.5.2",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-runtime": "6.6.1",
+    "css-loader": "^0.23.0",
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "json-loader": "^0.5.4",
+    "moment": "^2.13.0",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.0",
+    "radium": "^0.17.1",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.0.1",
+    "redux": "^3.0.5",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "svgo": "^0.6.1",
+    "svgo-loader": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9"
+  }
+}
